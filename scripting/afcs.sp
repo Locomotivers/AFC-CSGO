@@ -8,7 +8,7 @@
 
 #pragma newdecls required
 
-#define PLUGIN_VERSION "1.1.2"
+#define PLUGIN_VERSION "1.1.3"
 
 #define AFC_MAX_CMD_LENGTH 32
 
@@ -34,7 +34,7 @@ public Plugin myinfo =
 	author = "Locomotiver",
 	description = "Rcon only accessible commands with admin menu",
 	version		= PLUGIN_VERSION,
-	url			= "https://lab.gflclan.com"
+	url			= "https://github.com/Locomotivers/AFC-CSGO"
 };
 
 public void OnPluginStart()
