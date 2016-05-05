@@ -1,0 +1,288 @@
+"Phrases"
+{
+	"AFC_CMD_TAG"
+	{
+		"en" "[AFC]"	
+	}
+	
+	"AFC_CMSG_TAG"
+	{
+		"en" "[{BLUE}AFC{WHITE}]"
+	}
+	
+	"AFC_CMD_SPEED_USAGE"
+	{
+		"#format" "{1:s}"
+		"en" "Usage: {1} <target> <multiplier>"
+	}
+	
+	"AFC_CMD_SPEED_ACTIVITY"
+	{
+		"#format" "{1:s},{2:s}"
+		"en"	"Set the speed of {1} to {2}." 
+	}
+	
+	"AFC_CMD_SPEED_ACTIVITY_ML"
+	{
+		"#format" "{1:t},{2:s}"
+		"en"	"Set the speed of {1} to {2}." 
+	}
+	
+	"AFC_CMD_MSPEC_USAGE"
+	{
+		"#format" "{1:s}"
+		"en" "Usage: {1} <target>"
+	}
+	
+	"AFC_CMD_MSPEC_ACTIVITY"
+	{
+		"#format" "{1:s}"
+		"en"	"Moved {1} to spectator." 
+	}
+	
+	"AFC_CMD_MSPEC_ACTIVITY_ML"
+	{
+		"#format" "{1:t}"
+		"en"	"Moved {1} to spectator."  
+	}
+	
+	"AFC_CMD_EXM_USAGE"
+	{
+		"#format" "{1:s}"
+		"en" "Usage: {1} <length(min)>"
+	}
+	
+	"AFC_CMD_EXM_WRONG_INT"
+	{
+		"#format" "{1:s}"
+		"en" "Usage: {1} is not a valid."
+	}
+	
+	"AFC_CMD_MCASH_USAGE"
+	{
+		"#format" "{1:s}"
+		"en" "Usage: {1} <target>"
+	}
+	
+	"AFC_CMD_MCASH_ACTIVITY"
+	{
+		"#format" "{1:s}"
+		"en"	"Gave money to {1}." 
+	}
+	
+	"AFC_CMD_MCASH_ACTIVITY_ML"
+	{
+		"#format" "{1:t}"
+		"en"	"Gave money to {1}."
+	}
+	
+	"AFC_CMD_AMMO_USAGE"
+	{
+		"#format" "{1:s}"
+		"en" "Usage: {1} <target>"
+	}
+	
+	"AFC_CMD_AMMO_E_ACTIVITY"
+	{
+		"#format" "{1:s}"
+		"en"	"Allowed Unlimited Ammo to {1}." 
+	}
+	
+	"AFC_CMD_AMMO_E_ACTIVITY_ML"
+	{
+		"#format" "{1:t}"
+		"en"	"Allowed Unlimited Ammo to {1}."
+	}
+	
+	"AFC_CMD_AMMO_D_ACTIVITY"
+	{
+		"#format" "{1:s}"
+		"en"	"Disabled Unlimited Ammo to {1}." 
+	}
+	
+	"AFC_CMD_AMMO_D_ACTIVITY_ML"
+	{
+		"#format" "{1:t}"
+		"en"	"Disabled Unlimited Ammo to {1}."
+	}
+	
+	"AFC_CMD_NADE_USAGE"
+	{
+		"#format" "{1:s}"
+		"en" "Usage: {1} <target>"
+	}
+	
+	"AFC_CMD_NADE_E_ACTIVITY"
+	{
+		"#format" "{1:s}"
+		"en"	"Allowed Unlimited Nade to {1}." 
+	}
+	
+	"AFC_CMD_NADE_D_ACTIVITY"
+	{
+		"#format" "{1:s}"
+		"en"	"Disabled Unlimited Nade to {1}." 
+	}
+	
+	"AFC_CMD_NADE_E_ACTIVITY_ML"
+	{
+		"#format" "{1:t}"
+		"en"	"Allowed Unlimited Nade to {1}."
+	}
+	
+	"AFC_CMD_NADE_D_ACTIVITY_ML"
+	{
+		"#format" "{1:t}"
+		"en"	"Disabled Unlimited Nade to {1}."
+	}
+	
+	"AFC_CMD_HEALTH_USAGE"
+	{
+		"#format" "{1:s}"
+		"en" "Usage: {1} <target> <health>"
+	}
+	
+	"AFC_CMD_HEALTH_INVALID"
+	{
+		"#format" "{1:s}"
+		"en" " {1} is not a valid number. Please enter proper integer value."
+	}
+	
+	"AFC_CMD_HEALTH_ACTIVITY"
+	{
+		"#format" "{1:s},{2:s}"
+		"en"	"Set {2} Health to {1}." 
+	}
+	
+	"AFC_CMD_HEALTH_ACTIVITY_ML"
+	{
+		"#format" "{1:t},{2:s}"
+		"en"	"Set {2} Health to {1}."
+	}
+
+	"AFC_CMD_GOD_USAGE"
+	{
+		"#format" "{1:s}"
+		"en" "Usage: {1} <target> <on|off>"
+	}
+	
+	"AFC_CMD_GOD_E_ACTIVITY"
+	{
+		"#format" "{1:s}"
+		"en"	"Allowed God Mode to {1}." 
+	}
+	
+	"AFC_CMD_GOD_D_ACTIVITY"
+	{
+		"#format" "{1:s}"
+		"en"	"Disabled God Mode to {1}." 
+	}
+	
+	"AFC_CMD_CMD_E_ACTIVITY_ML"
+	{
+		"#format" "{1:t}"
+		"en"	"Allowed God Mode to {1}."
+	}
+	
+	"AFC_CMD_GOD_D_ACTIVITY_ML"
+	{
+		"#format" "{1:t}"
+		"en"	"Disabled God Mode to {1}."
+	}
+		
+	"AFC_CMD_WEAPON_USAGE"
+	{
+		"#format" "{1:s}"
+		"en" "Usage: {1} <target> <weapon name>"
+	}
+	
+	"AFC_CMD_WEAPON_INVALID"
+	{
+		"#format" "{1:s}"
+		"en" " {1} is not a valid weapon. Please enter proper weapon name."
+	}
+	
+	"AFC_CMD_WEAPON_ACTIVITY"
+	{
+		"#format" "{1:s},{2:s}"
+		"en"	"Gave {2} to {1}." 
+	}
+	
+	"AFC_CMD_WEAPON_ACTIVITY_ML"
+	{
+		"#format" "{1:t},{2:s}"
+		"en"	"Gave {2} to {1}."
+	}
+	
+	"AFC_CMD_INVI_USAGE"
+	{
+		"#format" "{1:s}"
+		"en" "Usage: {1} <target>"
+	}
+	
+	"AFC_CMD_INVI_INVALID"
+	{
+		"#format" "{1:s}"
+		"en" " {1} is not a valid number. Please select off or on"
+	}
+	
+	"AFC_CMD_INVI_E_ACTIVITY"
+	{
+		"#format" "{1:s}"
+		"en"	"Allowed invisibility to {1}." 
+	}
+	
+	"AFC_CMD_INVI_D_ACTIVITY"
+	{
+		"#format" "{1:s}"
+		"en"	"Disabled invisibility to {1}." 
+	}
+	
+	"AFC_CMD_INVI_E_ACTIVITY_ML"
+	{
+		"#format" "{1:t}"
+		"en"	"Allowed invisibility to {1}."
+	}
+	
+	"AFC_CMD_INVI_D_ACTIVITY_ML"
+	{
+		"#format" "{1:t}"
+		"en"	"Disabled invisibility to {1}."
+	}
+	
+	"AFC_CMD_SWAP_USAGE"
+	{
+		"#format" "{1:s}"
+		"en" "Usage: {1} <target>"
+	}
+	
+	"AFC_CMD_SWAP_ACTIVITY"
+	{
+		"#format" "{1:s},{2:s}"
+		"en"	"{1} Swapped team into {2}'s team."
+	}
+	
+	"AFC_CMD_SWAP_ACTIVITY_ML"
+	{
+		"#format" "{1:t},{2:s}"
+		"en"	"{1} Swapped team into {2}'s team."
+	}
+
+	"AFC_CMD_RESTART"
+	{
+		"#format" "{1:t}"
+		"en"	"Successfully initated to restart the round"
+	}
+	
+	"AFC_CMD_RESPAWN"
+	{
+		"#format" "{1:s}"
+		"en" "Usage: {1} <target>"
+	}
+
+	"AFC_CMD_RESPAWN_ML"
+	{
+		"#format" "{1:t}"
+		"en" "Usage: {1} <target>"
+	}
+}
